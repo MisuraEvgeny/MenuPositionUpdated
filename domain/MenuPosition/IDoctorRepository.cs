@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MenuPosition
 {
-    interface IDoktorRepository
+  public  interface IDoctorRepository
     {
+        Doctor[] GetAllByName(string namePart);
     }
 }
