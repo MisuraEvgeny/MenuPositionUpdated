@@ -8,6 +8,6 @@ namespace MenuPosition
 {
   public  interface IDoctorRepository
     {
-        Doctor[] GetAllByName(string namePart);
+        Doctor[] GetAllByNameOrPosition(string namePart);
     }
 }
